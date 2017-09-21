@@ -1,0 +1,11 @@
+export 'package:offthechain/src/corpus.dart';
+export 'package:offthechain/src/gram.dart';
+export 'package:offthechain/src/gram_item.dart';
+export 'package:offthechain/src/gram_string.dart';
+export 'package:offthechain/src/repositories/gram_repository.dart';
+export 'package:offthechain/src/repositories/in_memory/in_memory_gram_repository.dart';
+export 'package:offthechain/src/repositories/google_cloud_datastore/google_cloud_datastore_gram_repository.dart';
+export 'package:offthechain/src/repositories/corpus_repository.dart';
+export 'package:offthechain/src/repositories/in_memory/in_memory_corpus_repository.dart';
+export 'package:offthechain/src/repositories/google_cloud_datastore/google_cloud_datastore_corpus_repository.dart';
+export 'package:offthechain/src/markov_chain_service.dart';
